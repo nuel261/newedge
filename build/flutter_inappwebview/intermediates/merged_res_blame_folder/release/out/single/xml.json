@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\oluwa\\AndroidStudioProjects\\UltraWeb_oneSignal\\build\\flutter_inappwebview\\intermediates\\merged_res\\release\\xml\\image_share_filepaths.xml",
+        "source": "C:\\Users\\oluwa\\.gradle\\caches\\transforms-3\\b9c589e1a452232d47b32f38f2592c16\\transformed\\browser-1.4.0\\res\\xml\\image_share_filepaths.xml"
+    },
+    {
+        "merged": "C:\\Users\\oluwa\\AndroidStudioProjects\\UltraWeb_oneSignal\\build\\flutter_inappwebview\\intermediates\\merged_res\\release\\xml\\provider_paths.xml",
+        "source": "C:\\Users\\oluwa\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\flutter_inappwebview-5.6.0+2\\android\\src\\main\\res\\xml\\provider_paths.xml"
+    }
+]

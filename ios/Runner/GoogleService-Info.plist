@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>362491763812-7fd3vciefr2afpuuv364r7hqn7ogvrvn.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.362491763812-7fd3vciefr2afpuuv364r7hqn7ogvrvn</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB1fnVtzSrqgObVmRY-SYPkoXgD6_GP290</string>
+	<key>GCM_SENDER_ID</key>
+	<string>362491763812</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.dncoder.edgewallet</string>
+	<key>PROJECT_ID</key>
+	<string>ultra-web-a3e22</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ultra-web-a3e22.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:362491763812:ios:7255f5e0d09fea720d5371</string>
+</dict>
+</plist>

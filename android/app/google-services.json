@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "362491763812",
+    "project_id": "ultra-web-a3e22",
+    "storage_bucket": "ultra-web-a3e22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362491763812:android:d6493cf018d9f9480d5371",
+        "android_client_info": {
+          "package_name": "com.dncoder.edgewallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "362491763812-eon9of5a9kj6posnhh65dpsea4s0prem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJaCe8fZzv0COuI1jDEPyiPGqwk4OqakM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "362491763812-eon9of5a9kj6posnhh65dpsea4s0prem.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

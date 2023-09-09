@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\oluwa\\AndroidStudioProjects\\UltraWeb_oneSignal\\build\\flutter_inappwebview\\intermediates\\merged_res\\release\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\oluwa\\.gradle\\caches\\transforms-3\\59e738766f4c7534b2c3d9cd5bf96cbf\\transformed\\core-1.8.0\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\oluwa\\AndroidStudioProjects\\UltraWeb_oneSignal\\build\\flutter_inappwebview\\intermediates\\merged_res\\release\\drawable-v21\\abc_list_divider_material.xml",
+        "source": "C:\\Users\\oluwa\\.gradle\\caches\\transforms-3\\aa6ffba7c21430e841ff15a285eb2992\\transformed\\appcompat-1.5.1\\res\\drawable-v21\\abc_list_divider_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\oluwa\\AndroidStudioProjects\\UltraWeb_oneSignal\\build\\flutter_inappwebview\\intermediates\\merged_res\\release\\drawable-v21\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\oluwa\\.gradle\\caches\\transforms-3\\aa6ffba7c21430e841ff15a285eb2992\\transformed\\appcompat-1.5.1\\res\\drawable-v21\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\oluwa\\AndroidStudioProjects\\UltraWeb_oneSignal\\build\\flutter_inappwebview\\intermediates\\merged_res\\release\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\oluwa\\.gradle\\caches\\transforms-3\\aa6ffba7c21430e841ff15a285eb2992\\transformed\\appcompat-1.5.1\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\oluwa\\AndroidStudioProjects\\UltraWeb_oneSignal\\build\\flutter_inappwebview\\intermediates\\merged_res\\release\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\oluwa\\.gradle\\caches\\transforms-3\\aa6ffba7c21430e841ff15a285eb2992\\transformed\\appcompat-1.5.1\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\oluwa\\AndroidStudioProjects\\UltraWeb_oneSignal\\build\\flutter_inappwebview\\intermediates\\merged_res\\release\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\oluwa\\.gradle\\caches\\transforms-3\\aa6ffba7c21430e841ff15a285eb2992\\transformed\\appcompat-1.5.1\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    }
+]

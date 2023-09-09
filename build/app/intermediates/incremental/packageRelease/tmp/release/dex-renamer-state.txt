@@ -1,0 +1,4 @@
+#Sat Sep 09 15:43:25 WAT 2023
+base.0=C\:\\Users\\oluwa\\AndroidStudioProjects\\UltraWeb_oneSignal\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
