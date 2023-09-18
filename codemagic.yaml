@@ -5,3 +5,8 @@ workflows:
             - ./gradlew assembleDebug
         artifacts:
             - build/outputs/**/**/*.apk
+            - app/build/**/outputs/**/*.apk
+        publishing:
+            email:
+              recipients:
+                - oluwaleyeolufemi@gmail.com # enter your email id here
