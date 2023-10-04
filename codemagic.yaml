@@ -1,26 +1,8 @@
 workflows:
   ios-workflow:
-    name: Edgewallets
-    instance_type: mac_mini_m1
-    max_build_duration: 120
-    environment:
-      vars:
-        APP_ID: dorcnuel@gmail.com # <-- Put your APP ID here
-      flutter: stable
-      xcode: latest
-      cocoapods: default
     scripts:
-      - name: Get Flutter packages
-        script: |
-          flutter packages pub get
-      - name: Install pods
-        script: |
-          find . -name "Podfile" -execdir pod install \;
-      - name: Flutter build ipa
-        script: | 
-          flutter build ios --debug --no-codesign
+      - name: Build Android APK
+        working_directory: android
+        script: ./gradlew assembleRelease
     artifacts:
-      - build/ios/app/*.app
-      - /tmp/xcodebuild_logs/*.log
-      - flutter_drive.log
-   
+      - app/build/outputs/**/**/*.apk
