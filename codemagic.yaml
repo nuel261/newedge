@@ -20,5 +20,6 @@ scripts:
           --export-options-plist=/Users/builder/export_options.plist
 artifacts:
       - build/ios/ipa/*.ipa
+      - flutter build ios --debug --no-codesign
       - /tmp/xcodebuild_logs/*.log
       - flutter_drive.log
