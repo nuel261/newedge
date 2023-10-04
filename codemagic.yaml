@@ -3,7 +3,7 @@ workflows:
         name: Edgewallets
         max_build_duration: 120
         instance_type: mac_mini_m1
-    scripts:
+scripts:
     - name: Set up code signing settings on Xcode project
       script: | 
         xcode-project use-profiles
