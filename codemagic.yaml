@@ -15,7 +15,7 @@
       script: | 
         flutter build ios --debug --no-codesign
     artifacts:
-      - build/ios/ipa/*.ipa
+      - build/ios/app/*.app
       - /tmp/xcodebuild_logs/*.log
       - flutter_drive.log
       
