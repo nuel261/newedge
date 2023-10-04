@@ -1,10 +1,6 @@
 workflows:
   my-workflow:
     scripts:
-      - name: say hello
-        script: echo "Hello Codemagician!"
-  my-workflow2:
-    scripts:
       - name: Run iOS tests
         script: |
           set -e # exit on first failed command
@@ -13,4 +9,4 @@ workflows:
               --workspace ${XCODE_WORKSPACE?} \
               --scheme ${XCODE_SCHEME?} \
               --device "iPhone 12"
-        test_report: ios/test/*.xml
+        test_report: build/ios/test/*.xml
