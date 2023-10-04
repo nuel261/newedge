@@ -1,28 +1,28 @@
 workflows:
-    android-app: # workflow ID
-        name: Edgewallets # workflow name
-        scripts:
-            - ./gradlew assembleDebug
-        artifacts:
-            - build/outputs/**/**/*.apk
-            - app/build/**/outputs/**/*.apk
-        publishing:
-            email:
-              recipients:
-                - oluwaleyeolufemi@gmail.com # enter your email id here
-release-workflow:
-  name: Native Android
-  max_build_duration: 60
-  environment:
-    vars:
-      CM_KEYSTORE:  ../app/upload-keystore.jks # Add encrypted keystore file
-      CM_KEYSTORE_PASSWORD: 7B:09:B6:5A:3B:26:74:16:C7:1A:08:58:55:A9:8B:9E:31:1F:F4:F2:CF:FA:CE:60:7A:76:F9:44:51:4B:19:A3 # Add encrypted keystore password
-      CM_KEY_ALIAS_PASSWORD: 7B:09:B6:5A:3B:26:74:16:C7:1A:08:58:55:A9:8B:9E:31:1F:F4:F2:CF:FA:CE:60:7A:76:F9:44:51:4B:19:A3 # Add encrypted alias password
-      CM_KEY_ALIAS_USERNAME: upload # Add alias name
-  scripts: # Add the build configurations here
-  artifacts:
-    - app/build/**/outputs/**/*.apk
-  publishing:
-    email:
-      recipients:
-        - oluwaleyeolufemi@gmail.com
+    edgewallet-workflow:
+        name: Edgewallets
+        max_build_duration: 120
+        instance_type: mac_mini_m1
+workflows:
+    sample-workflow:
+        environment:
+            flutter: stable
+ scripts:
+    - name: Set up code signing settings on Xcode project
+      script: | 
+        xcode-project use-profiles
+    - name: Get Flutter packages
+      script: | 
+        flutter packages pub get
+    - name: Install pods
+      script: | 
+        find . -name "Podfile" -execdir pod install \;
+    - name: Flutter build ipa
+      script: | 
+        flutter build ipa --release \
+          --build-name=1.0.0 \
+          --export-options-plist=/Users/builder/export_options.plist
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+      - flutter_drive.log
