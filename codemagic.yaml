@@ -19,10 +19,8 @@ workflows:
       - name: Flutter build ipa
         script: | 
           flutter build ios --debug --no-codesign
-            --build-name=1.0.0 \
-            --export-options-plist=/Users/builder/export_options.plist
     artifacts:
-      - build/ios/ipa/*.ipa
+      - build/ios/app/*.app
       - /tmp/xcodebuild_logs/*.log
       - flutter_drive.log
    
