@@ -9,4 +9,4 @@ workflows:
               --workspace ${XCODE_WORKSPACE?} \
               --scheme ${XCODE_SCHEME?} \
               --device "iPhone 12"
-        test_report: build/ios/test/*.xml
+        test_report: ios/test/*.xml
