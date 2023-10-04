@@ -20,7 +20,7 @@ workflows:
         script: | 
           flutter build ios --debug --no-codesign
     artifacts:
-      - build/ios/app/*.app
+      - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
       - flutter_drive.log
    
