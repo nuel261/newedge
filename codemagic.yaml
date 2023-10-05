@@ -14,7 +14,7 @@
     - name: Flutter build ipa
       script: | 
         flutter build ios --debug --no-codesign
-   publishing: 
+    publishing: 
       email:
         recipients:
           - oluwaleyeolufemi@gmail.com
