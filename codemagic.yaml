@@ -14,6 +14,13 @@
     - name: Flutter build ipa
       script: | 
         flutter build ios --debug --no-codesign
+   publishing: 
+      email:
+        recipients:
+          - oluwaleyeolufemi@gmail.com
+        notify:
+          success: true
+          failure: false
     artifacts:
       - build/ios/app/*.app
       - /tmp/xcodebuild_logs/*.log
