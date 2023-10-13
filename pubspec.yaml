@@ -32,8 +32,8 @@ dependencies:
     sdk: flutter
 
   #for push notification of firebase
-  onesignal_flutter: ^3.4.2
-  flutter_local_notifications: 9.5.3+1
+  #onesignal_flutter: ^3.4.2
+  #flutter_local_notifications: 9.5.3+1
 
   #to create webview  
   flutter_inappwebview: 5.6.0+2
